@@ -1,0 +1,1930 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PixelCraft Studio | We craft your ideas into pixels</title>
+  <meta name="description"
+    content="PixelCraft Studio is a creative IT company offering digital designs, logos, posters, and simple websites for small businesses, schools, and organizations.">
+  <link rel="icon" type="image/png" href="logo-icon.png">
+
+  <!-- Google Fonts: Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap"
+    rel="stylesheet">
+
+  <!-- External CSS Design -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ============================================================
+       STICKY NAVIGATION BAR
+       ============================================================ -->
+  <header class="site-header" id="header">
+    <div class="container nav-container">
+      <!-- Official Logo: Pixel Paintbrush + Company Name -->
+      <a href="#home" class="brand-logo" aria-label="PixelCraft Studio Home">
+        <img src="logo-icon.png" alt="PixelCraft Studio Paintbrush Logo" class="brand-logo-img">
+        <div class="brand-logo-text">
+          <span class="brand-title">PixelCraft Studio</span>
+          <span class="brand-subtitle">Creative IT Solutions</span>
+        </div>
+      </a>
+
+      <!-- Desktop & Mobile Nav Menu -->
+      <nav class="nav-menu" id="navMenu">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About Us</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#team" class="nav-link">Our Team</a>
+        <a href="#culture" class="nav-link">Our Culture</a>
+        <a href="#portfolio" class="nav-link">Portfolio</a>
+        <a href="#contact" class="nav-link">Contact</a>
+        <a href="#contact" class="btn btn-orange nav-cta">Get Started</a>
+      </nav>
+
+      <!-- Hamburger Button for Mobile -->
+      <button class="hamburger" id="hamburgerBtn" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ============================================================
+       SECTION 1: HOME PAGE
+       ============================================================ -->
+  <section class="hero-section" id="home">
+    <div class="container hero-wrapper">
+      <div class="hero-content fade-up">
+        <span class="hero-tagline">“We craft your ideas into pixels.”</span>
+        <h1 class="hero-title">
+          Smart Digital Design &amp; <span class="highlight">IT Solutions</span> for Everyone
+        </h1>
+        <p class="hero-intro">
+          PixelCraft Studio is a creative IT company that makes digital designs and simple websites for small
+          businesses, schools, and organizations.
+        </p>
+        <div class="hero-welcome">
+          <svg class="ui-icon ui-icon-sm" style="color: var(--primary-orange); margin-right: 0.35rem;"
+            viewBox="0 0 24 24">
+            <path
+              d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z" />
+          </svg>
+          <strong>Welcome!</strong> Let us help your brand look professional at an affordable price.
+        </div>
+        <div class="hero-actions">
+          <!-- Orange "Contact Us" Button -->
+          <a href="#contact" class="btn btn-orange" id="heroContactBtn">Contact Us</a>
+          <a href="#services" class="btn btn-outline">Explore Services</a>
+        </div>
+      </div>
+
+      <div class="hero-visual fade-up">
+        <!-- Floating Badges for Pixel Aesthetic -->
+        <div class="floating-pixel-badge top-right">
+          <svg class="ui-icon ui-icon-md" style="color: var(--primary-purple);" viewBox="0 0 24 24">
+            <circle cx="13.5" cy="6.5" r=".5" fill="currentColor" />
+            <circle cx="17.5" cy="10.5" r=".5" fill="currentColor" />
+            <circle cx="8.5" cy="7.5" r=".5" fill="currentColor" />
+            <circle cx="6.5" cy="12.5" r=".5" fill="currentColor" />
+            <path
+              d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.563-2.512 5.563-5.563C21.437 6.5 17.5 2 12 2z" />
+          </svg>
+          <span>100% Custom Designs</span>
+        </div>
+        <div class="floating-pixel-badge bottom-left">
+          <svg class="ui-icon ui-icon-md" style="color: var(--primary-orange);" viewBox="0 0 24 24">
+            <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
+          </svg>
+          <span>Fast &amp; Affordable</span>
+        </div>
+
+        <!-- Official Logo Hero Artwork Display -->
+        <div class="hero-card-art">
+          <div class="hero-logo-frame">
+            <img src="logo-full.png" alt="PixelCraft Studio Official Logo" class="hero-full-logo">
+          </div>
+          <div class="hero-card-footer">
+            <div class="pulse-indicator"></div>
+            <span>Accepting new client &amp; school projects</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SECTION 2: ABOUT US
+       ============================================================ -->
+  <section class="about-section" id="about">
+    <div class="container">
+      <div class="section-header fade-up">
+        <span class="pixel-badge">Who We Are</span>
+        <h2 class="section-title">About <span>PixelCraft Studio</span></h2>
+        <p class="section-subtitle">Born out of passion for design and technology, we empower local communities with
+          creative digital media.</p>
+      </div>
+
+      <div class="about-grid">
+        <!-- Company Background -->
+        <div class="about-card-narrative fade-up">
+          <h3>
+            <svg class="ui-icon ui-icon-md" style="color: var(--primary-purple);" viewBox="0 0 24 24">
+              <path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z" />
+              <path
+                d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z" />
+              <path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0" />
+              <path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5" />
+            </svg>
+            Our Background
+          </h3>
+          <p>
+            PixelCraft Studio was started by IT students who love design, created to help small shops, schools, and
+            organizations that have no one to make good logos, posters, and online pages.
+          </p>
+          <p>
+            We realized that many grassroots initiatives, student clubs, and local family businesses struggle with poor
+            digital presence simply because modern agencies charge exorbitant fees. By combining technical IT skills
+            with youthful creativity, we bridge this gap with reliable, friendly, and accessible digital crafts.
+          </p>
+        </div>
+
+        <!-- Vision and Mission -->
+        <div class="vm-pair fade-up">
+          <div class="vm-card">
+            <h4>
+              <svg class="ui-icon ui-icon-md" style="color: var(--primary-purple);" viewBox="0 0 24 24">
+                <circle cx="12" cy="12" r="10" />
+                <circle cx="12" cy="12" r="6" />
+                <circle cx="12" cy="12" r="2" />
+              </svg>
+              Our Vision
+            </h4>
+            <p>
+              To be the most trusted creative digital studio for local businesses and organizations.
+            </p>
+          </div>
+          <div class="vm-card mission">
+            <h4>
+              <svg class="ui-icon ui-icon-md" style="color: var(--primary-orange);" viewBox="0 0 24 24">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+              </svg>
+              Our Mission
+            </h4>
+            <p>
+              To make affordable, high-quality digital designs and websites that help our clients grow, while treating
+              every team member with respect.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Objectives as 4 Cards -->
+      <h3 class="objectives-heading fade-up">Our First-Year Objectives</h3>
+      <div class="objectives-grid">
+        <div class="objective-card fade-up">
+          <span class="obj-stat">20</span>
+          <div class="obj-label">Client projects completed in Year 1</div>
+        </div>
+        <div class="objective-card fade-up">
+          <span class="obj-stat">90%+</span>
+          <div class="obj-label">Client satisfaction rating across all services</div>
+        </div>
+        <div class="objective-card fade-up">
+          <span class="obj-stat">95%</span>
+          <div class="obj-label">Of all projects delivered strictly on time</div>
+        </div>
+        <div class="objective-card fade-up">
+          <span class="obj-stat">&lt;10%</span>
+          <div class="obj-label">Employee turnover maintained below 10%</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SECTION 3: SERVICES
+       ============================================================ -->
+  <section class="services-section" id="services">
+    <div class="container">
+      <div class="section-header fade-up">
+        <span class="pixel-badge">What We Offer</span>
+        <h2 class="section-title">Our Creative &amp; <span>IT Services</span></h2>
+        <p class="section-subtitle">Tailored creative packages designed specifically for small budgets with high
+          expectations.</p>
+      </div>
+
+      <!-- 5 Service Cards (Simple Minimalist Icons) -->
+      <div class="services-flex">
+        <!-- 1. Logo and brand design -->
+        <div class="service-card fade-up">
+          <div class="service-icon-box">
+            <svg class="ui-icon ui-icon-lg" viewBox="0 0 24 24">
+              <path d="m12 19 7-7 3 3-7 7-3-3z" />
+              <path d="m18 13-1.5-7.5L2 2l3.5 14.5L13 18l5-5z" />
+              <path d="m2 2 7.586 7.586" />
+              <circle cx="11" cy="11" r="2" />
+            </svg>
+          </div>
+          <h3 class="service-title">Logo and Brand Design</h3>
+          <p class="service-desc">
+            Crafting memorable logos, custom color palettes, and complete brand identity guidelines so your business
+            stands out anywhere.
+          </p>
+          <span class="service-tag">Vector Files &bull; Style Guide</span>
+        </div>
+
+        <!-- 2. Posters, flyers, and tarpaulin layouts -->
+        <div class="service-card fade-up">
+          <div class="service-icon-box">
+            <svg class="ui-icon ui-icon-lg" viewBox="0 0 24 24">
+              <rect x="3" y="3" width="18" height="18" rx="2" />
+              <line x1="3" y1="9" x2="21" y2="9" />
+              <line x1="9" y1="21" x2="9" y2="9" />
+            </svg>
+          </div>
+          <h3 class="service-title">Posters, Flyers, &amp; Tarpaulin Layouts</h3>
+          <p class="service-desc">
+            Eye-catching print-ready graphics for school events, campus elections, business promotions, fiestas, and
+            announcements.
+          </p>
+          <span class="service-tag">High-Res Print &bull; Custom Dimensions</span>
+        </div>
+
+        <!-- 3. Social media page design and content -->
+        <div class="service-card fade-up">
+          <div class="service-icon-box">
+            <svg class="ui-icon ui-icon-lg" viewBox="0 0 24 24">
+              <rect x="5" y="2" width="14" height="20" rx="2" ry="2" />
+              <line x1="12" y1="18" x2="12.01" y2="18" />
+            </svg>
+          </div>
+          <h3 class="service-title">Social Media Page Design &amp; Content</h3>
+          <p class="service-desc">
+            Branded banners, post templates, promotional reels, and engaging carousel graphics tailored for Facebook,
+            Instagram, and TikTok.
+          </p>
+          <span class="service-tag">Cohesive Feed &bull; Editable Templates</span>
+        </div>
+
+        <!-- 4. Simple websites and online store pages -->
+        <div class="service-card fade-up">
+          <div class="service-icon-box">
+            <svg class="ui-icon ui-icon-lg" viewBox="0 0 24 24">
+              <rect x="2" y="3" width="20" height="14" rx="2" ry="2" />
+              <line x1="8" y1="21" x2="16" y2="21" />
+              <line x1="12" y1="17" x2="12" y2="21" />
+            </svg>
+          </div>
+          <h3 class="service-title">Simple Websites &amp; Online Store Pages</h3>
+          <p class="service-desc">
+            Clean, mobile-responsive landing pages, portfolio sites, and simple catalog pages that help customers find
+            and order from you easily.
+          </p>
+          <span class="service-tag">Mobile Responsive &bull; Fast Loading</span>
+        </div>
+
+        <!-- 5. Photo and video editing -->
+        <div class="service-card fade-up">
+          <div class="service-icon-box">
+            <svg class="ui-icon ui-icon-lg" viewBox="0 0 24 24">
+              <polygon points="23 7 16 12 23 17 23 7" />
+              <rect x="1" y="5" width="15" height="14" rx="2" ry="2" />
+            </svg>
+          </div>
+          <h3 class="service-title">Photo and Video Editing</h3>
+          <p class="service-desc">
+            Professional photo retouching, background removal, product highlights, and video montage cutting with crisp
+            audio tracks.
+          </p>
+          <span class="service-tag">Color Grading &bull; Clean Cuts</span>
+        </div>
+      </div>
+
+      <!-- Line on who we serve -->
+      <div class="who-we-serve-box fade-up">
+        <div class="who-we-serve-title">
+          <svg class="ui-icon ui-icon-md" style="color: var(--primary-purple);" viewBox="0 0 24 24">
+            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+            <circle cx="9" cy="7" r="4" />
+            <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+            <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+          </svg>
+          <span>Who We Proudly Serve:</span>
+        </div>
+        <div class="client-pills">
+          <span class="client-pill">Small Businesses</span>
+          <span class="client-pill">Schools &amp; Academies</span>
+          <span class="client-pill">Student Organizations</span>
+          <span class="client-pill">Local Offices</span>
+          <span class="client-pill">Tech &amp; Local Startups</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SECTION 4: OUR TEAM
+       ============================================================ -->
+  <section class="team-section" id="team">
+    <div class="container">
+      <div class="section-header fade-up">
+        <span class="pixel-badge">Leadership &amp; Talent</span>
+        <h2 class="section-title">Meet Our <span>Team</span></h2>
+        <p class="section-subtitle">The passionate minds, organizers, and creators driving PixelCraft Studio forward.
+        </p>
+      </div>
+
+      <!-- Photo swap helper notice -->
+      <div class="student-note-banner fade-up">
+        <svg class="ui-icon ui-icon-md" style="color: var(--primary-orange); flex-shrink: 0;" viewBox="0 0 24 24">
+          <line x1="9" y1="18" x2="15" y2="18" />
+          <line x1="10" y1="22" x2="14" y2="22" />
+          <path
+            d="M15.09 14c.18-.98.65-1.74 1.41-2.5A4.65 4.65 0 0 0 18 8 6 6 0 0 0 6 8c0 1 .23 2.23 1.5 3.5A4.61 4.61 0 0 1 8.91 14" />
+        </svg>
+        <div>
+          <strong>Photo Replacement Guide:</strong> Photos are configured to load <code>photo-1.jpg</code> through
+          <code>photo-8.jpg</code>. Default placeholder avatars have been generated in your folder. Simply replace those
+          files with your classmates' square photos!
+        </div>
+      </div>
+
+      <!-- Clean Hierarchical Organizational Chart -->
+      <div class="org-chart-wrapper fade-up">
+        <div class="org-chart-header">
+          <div class="org-chart-title">
+            <svg class="ui-icon ui-icon-md" style="color: var(--primary-purple);" viewBox="0 0 24 24">
+              <rect x="9" y="3" width="6" height="4" rx="1" />
+              <rect x="2" y="17" width="6" height="4" rx="1" />
+              <rect x="9" y="17" width="6" height="4" rx="1" />
+              <rect x="16" y="17" width="6" height="4" rx="1" />
+              <path d="M12 7v4m-7 6v-3a3 3 0 0 1 3-3h8a3 3 0 0 1 3 3v3m-7-6v6" />
+            </svg>
+            <span>Studio Organizational Chart</span>
+          </div>
+        </div>
+
+        <!-- Level 1: CEO -->
+        <div class="org-ceo-row">
+          <div class="org-ceo-card">
+            <img src="photo-1.jpg" alt="CEO Photo" class="org-photo-circle" id="org-photo-1">
+            <div class="org-info">
+              <span class="org-name" style="color: #fff;" id="org-name-1">[Name 1]</span>
+              <span class="org-role" id="org-role-1">Chief Executive Officer</span>
+            </div>
+          </div>
+          <div class="org-stem-down"></div>
+        </div>
+
+        <!-- Level 2: 4 Main Departments -->
+        <div class="org-dept-grid">
+          <!-- 1. HR Department -->
+          <div class="org-dept-column">
+            <div class="org-node-card">
+              <img src="photo-2.jpg" alt="HR Manager Photo" class="org-photo-circle" id="org-photo-2">
+              <div class="org-info">
+                <span class="org-name" id="org-name-2">[Name 2]</span>
+                <span class="org-role" id="org-role-2">HR Manager</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2. IT Department (Has Web Dev & Graphic Designer reporting under them) -->
+          <div class="org-dept-column">
+            <div class="org-node-card">
+              <img src="photo-3.jpg" alt="IT Manager Photo" class="org-photo-circle" id="org-photo-3">
+              <div class="org-info">
+                <span class="org-name" id="org-name-3">[Name 3]</span>
+                <span class="org-role" id="org-role-3">IT Manager</span>
+              </div>
+            </div>
+
+            <!-- Nested Sub-Branch under IT Manager -->
+            <div class="org-sub-branch">
+              <div class="org-node-card sub-role">
+                <img src="photo-6.jpg" alt="Web Developer Photo" class="org-photo-circle" id="org-photo-6">
+                <div class="org-info">
+                  <span class="org-name" id="org-name-6">[Name 6]</span>
+                  <span class="org-role" id="org-role-6">Web Developer</span>
+                </div>
+              </div>
+              <div class="org-node-card sub-role">
+                <img src="photo-7.jpg" alt="Graphic Designer Photo" class="org-photo-circle" id="org-photo-7">
+                <div class="org-info">
+                  <span class="org-name" id="org-name-7">[Name 7]</span>
+                  <span class="org-role" id="org-role-7">Graphic Designer</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 3. Operations Department (Has Project Manager reporting under them) -->
+          <div class="org-dept-column">
+            <div class="org-node-card">
+              <img src="photo-4.jpg" alt="Operations Manager Photo" class="org-photo-circle" id="org-photo-4">
+              <div class="org-info">
+                <span class="org-name" id="org-name-4">[Name 4]</span>
+                <span class="org-role" id="org-role-4">Operations Manager</span>
+              </div>
+            </div>
+
+            <!-- Nested Sub-Branch under Operations Manager -->
+            <div class="org-sub-branch">
+              <div class="org-node-card sub-role">
+                <img src="photo-5.jpg" alt="Project Manager Photo" class="org-photo-circle" id="org-photo-5">
+                <div class="org-info">
+                  <span class="org-name" id="org-name-5">[Name 5]</span>
+                  <span class="org-role" id="org-role-5">Project Manager</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 4. Marketing Department -->
+          <div class="org-dept-column">
+            <div class="org-node-card">
+              <img src="photo-8.jpg" alt="Marketing Manager Photo" class="org-photo-circle" id="org-photo-8">
+              <div class="org-info">
+                <span class="org-name" id="org-name-8">[Name 8]</span>
+                <span class="org-role" id="org-role-8">Marketing Manager</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Below the chart: One card per person (8 cards total) -->
+      <div class="profiles-grid">
+        <!-- 1. CEO -->
+        <div class="member-card fade-up">
+          <div class="member-photo-frame">
+            <img src="photo-1.jpg" alt="CEO" class="member-img" id="card-photo-1">
+          </div>
+          <h3 class="member-name" id="card-name-1">[Name 1]</h3>
+          <span class="member-position" id="card-role-1">Chief Executive Officer</span>
+          <p class="member-desc">Leads the company and sets goals.</p>
+        </div>
+
+        <!-- 2. Human Resources Manager -->
+        <div class="member-card fade-up">
+          <div class="member-photo-frame">
+            <img src="photo-2.jpg" alt="HR Manager" class="member-img" id="card-photo-2">
+          </div>
+          <h3 class="member-name" id="card-name-2">[Name 2]</h3>
+          <span class="member-position" id="card-role-2">Human Resources Manager</span>
+          <p class="member-desc">Handles hiring, training, and workplace rules.</p>
+        </div>
+
+        <!-- 3. IT Manager -->
+        <div class="member-card fade-up">
+          <div class="member-photo-frame">
+            <img src="photo-3.jpg" alt="IT Manager" class="member-img" id="card-photo-3">
+          </div>
+          <h3 class="member-name" id="card-name-3">[Name 3]</h3>
+          <span class="member-position" id="card-role-3">IT Manager</span>
+          <p class="member-desc">Leads all technical and design work.</p>
+        </div>
+
+        <!-- 4. Operations Manager -->
+        <div class="member-card fade-up">
+          <div class="member-photo-frame">
+            <img src="photo-4.jpg" alt="Operations Manager" class="member-img" id="card-photo-4">
+          </div>
+          <h3 class="member-name" id="card-name-4">[Name 4]</h3>
+          <span class="member-position" id="card-role-4">Operations Manager</span>
+          <p class="member-desc">Keeps daily work running smoothly.</p>
+        </div>
+
+        <!-- 5. Project Manager -->
+        <div class="member-card fade-up">
+          <div class="member-photo-frame">
+            <img src="photo-5.jpg" alt="Project Manager" class="member-img" id="card-photo-5">
+          </div>
+          <h3 class="member-name" id="card-name-5">[Name 5]</h3>
+          <span class="member-position" id="card-role-5">Project Manager</span>
+          <p class="member-desc">Plans and delivers each client project.</p>
+        </div>
+
+        <!-- 6. Web Developer -->
+        <div class="member-card fade-up">
+          <div class="member-photo-frame">
+            <img src="photo-6.jpg" alt="Web Developer" class="member-img" id="card-photo-6">
+          </div>
+          <h3 class="member-name" id="card-name-6">[Name 6]</h3>
+          <span class="member-position" id="card-role-6">Web Developer</span>
+          <p class="member-desc">Builds and maintains websites.</p>
+        </div>
+
+        <!-- 7. Graphic Designer -->
+        <div class="member-card fade-up">
+          <div class="member-photo-frame">
+            <img src="photo-7.jpg" alt="Graphic Designer" class="member-img" id="card-photo-7">
+          </div>
+          <h3 class="member-name" id="card-name-7">[Name 7]</h3>
+          <span class="member-position" id="card-role-7">Graphic Designer</span>
+          <p class="member-desc">Creates logos, posters, and social media layouts.</p>
+        </div>
+
+        <!-- 8. Marketing Manager -->
+        <div class="member-card fade-up">
+          <div class="member-photo-frame">
+            <img src="photo-8.jpg" alt="Marketing Manager" class="member-img" id="card-photo-8">
+          </div>
+          <h3 class="member-name" id="card-name-8">[Name 8]</h3>
+          <span class="member-position" id="card-role-8">Marketing Manager</span>
+          <p class="member-desc">Promotes the studio and finds clients.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SECTION 5: OUR CULTURE
+       ============================================================ -->
+  <section class="culture-section" id="culture">
+    <div class="container">
+      <div class="section-header fade-up">
+        <span class="pixel-badge">Our Principles</span>
+        <h2 class="section-title">Our Studio <span>Culture</span></h2>
+        <p class="section-subtitle">We believe exceptional creative work flourishes only in an environment of safety,
+          equality, and mutual respect.</p>
+      </div>
+
+      <!-- Core Values: CRAFT in 5 Colored Tiles -->
+      <h3 class="craft-heading fade-up">Core Values (C.R.A.F.T.)</h3>
+      <div class="craft-flex">
+        <div class="craft-tile fade-up">
+          <span class="craft-letter">C</span>
+          <div class="craft-word">Creativity</div>
+          <p class="craft-desc">Thinking outside traditional boxes to solve digital challenges playfully and boldly.</p>
+        </div>
+        <div class="craft-tile fade-up">
+          <span class="craft-letter">R</span>
+          <div class="craft-word">Respect</div>
+          <p class="craft-desc">Valuing every teammate's voice, time, background, and personal perspectives equally.</p>
+        </div>
+        <div class="craft-tile fade-up">
+          <span class="craft-letter">A</span>
+          <div class="craft-word">Accountability</div>
+          <p class="craft-desc">Taking genuine ownership of commitments, deadlines, and project quality.</p>
+        </div>
+        <div class="craft-tile fade-up">
+          <span class="craft-letter">F</span>
+          <div class="craft-word">Fairness</div>
+          <p class="craft-desc">Transparent evaluations, merit-based rewards, and equitable opportunities for all.</p>
+        </div>
+        <div class="craft-tile fade-up">
+          <span class="craft-letter">T</span>
+          <div class="craft-word">Teamwork</div>
+          <p class="craft-desc">Collaborating across roles so that collective intelligence elevates every delivery.</p>
+        </div>
+      </div>
+
+      <!-- Leadership Philosophy & Diversity and Inclusion -->
+      <div class="culture-deep-grid">
+        <div class="culture-card fade-up">
+          <h3>
+            <svg class="ui-icon ui-icon-md" style="color: var(--primary-purple);" viewBox="0 0 24 24">
+              <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+            </svg>
+            Democratic Leadership Philosophy
+          </h3>
+          <p>
+            At PixelCraft Studio, we practice an open <strong>democratic leadership</strong> approach. Our leaders
+            actively listen to the team, gather varied ideas and concrete facts from every member, and then decide the
+            best path forward while clearly explaining the reasons why.
+          </p>
+          <p>
+            No one is silenced by rank. Every voice matters, ensuring that strategic choices benefit both our clients
+            and our studio family.
+          </p>
+        </div>
+
+        <div class="culture-card fade-up">
+          <h3>
+            <svg class="ui-icon ui-icon-md" style="color: var(--primary-purple);" viewBox="0 0 24 24">
+              <circle cx="12" cy="12" r="10" />
+              <line x1="2" y1="12" x2="22" y2="12" />
+              <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+            </svg>
+            Diversity &amp; Inclusion
+          </h3>
+          <p>
+            Everyone is warmly welcomed regardless of gender, age, religion, cultural background, or disability. We
+            celebrate distinct perspectives through active workplace programs:
+          </p>
+          <ul>
+            <li><strong>Mixed Project Teams:</strong> Interdisciplinary groups that blend diverse skill sets and points
+              of view.</li>
+            <li><strong>Mentors for New Employees:</strong> Pairing newcomers with seasoned guides to foster belonging.
+            </li>
+            <li><strong>Annual Diversity Day:</strong> A special studio celebration recognizing our team's varied
+              heritages and traditions.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Employee Policies & 4-Step Conflict Resolution -->
+      <div class="culture-card fade-up" style="margin-bottom: 2rem;">
+        <h3>
+          <svg class="ui-icon ui-icon-md" style="color: var(--primary-purple);" viewBox="0 0 24 24">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+            <polyline points="14 2 14 8 20 8" />
+            <line x1="16" y1="13" x2="8" y2="13" />
+            <line x1="16" y1="17" x2="8" y2="17" />
+            <polyline points="10 9 9 9 8 9" />
+          </svg>
+          Employee Policies &amp; Well-Being
+        </h3>
+        <div
+          style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.5rem; margin-top: 1rem;">
+          <div>
+            <h4
+              style="color: var(--primary-purple); font-size: 1.05rem; margin-bottom: 0.35rem; display: flex; align-items: center; gap: 0.45rem;">
+              <svg class="ui-icon ui-icon-sm" viewBox="0 0 24 24">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+              </svg>
+              Zero Tolerance
+            </h4>
+            <p style="font-size: 0.92rem; color: var(--text-muted);">Strict zero tolerance for discrimination and
+              harassment, backed by confidential, direct reporting to HR.</p>
+          </div>
+          <div>
+            <h4
+              style="color: var(--primary-orange); font-size: 1.05rem; margin-bottom: 0.35rem; display: flex; align-items: center; gap: 0.45rem;">
+              <svg class="ui-icon ui-icon-sm" viewBox="0 0 24 24">
+                <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+                <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+                <path d="M7 21h10" />
+                <path d="M12 3v18" />
+                <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
+              </svg>
+              Equal Opportunities
+            </h4>
+            <p style="font-size: 0.92rem; color: var(--text-muted);">Career progression and task assignments are awarded
+              purely based on demonstrated skill, creativity, and performance.</p>
+          </div>
+          <div>
+            <h4
+              style="color: var(--sky-blue); font-size: 1.05rem; margin-bottom: 0.35rem; display: flex; align-items: center; gap: 0.45rem;">
+              <svg class="ui-icon ui-icon-sm" viewBox="0 0 24 24">
+                <circle cx="12" cy="12" r="10" />
+                <polyline points="12 6 12 12 16 14" />
+              </svg>
+              Flexibility &amp; Wellness
+            </h4>
+            <p style="font-size: 0.92rem; color: var(--text-muted);">Flexible operating hours and designated wellness
+              days to guarantee a healthy school-work-life balance.</p>
+          </div>
+          <div>
+            <h4
+              style="color: var(--success-green); font-size: 1.05rem; margin-bottom: 0.35rem; display: flex; align-items: center; gap: 0.45rem;">
+              <svg class="ui-icon ui-icon-sm" viewBox="0 0 24 24">
+                <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
+                <path d="M6 12v5c3 3 9 3 12 0v-5" />
+              </svg>
+              Paid Learning
+            </h4>
+            <p style="font-size: 0.92rem; color: var(--text-muted);">Company-sponsored certifications and online courses
+              for continuous technical and creative growth.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 4-Step Conflict Resolution Process -->
+      <div class="conflict-box fade-up">
+        <div class="conflict-title">
+          <svg class="ui-icon ui-icon-md" style="color: var(--primary-purple);" viewBox="0 0 24 24">
+            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+            <circle cx="9" cy="7" r="4" />
+            <polyline points="16 11 18 13 22 9" />
+          </svg>
+          <span>4-Step Conflict Resolution Process</span>
+        </div>
+        <div class="steps-grid">
+          <div class="step-item">
+            <div class="step-num">1</div>
+            <h4 class="step-title">Talk It Out</h4>
+            <p class="step-desc">Direct, respectful open conversation between involved parties to air concerns.</p>
+          </div>
+          <div class="step-item">
+            <div class="step-num">2</div>
+            <h4 class="step-title">Manager Helps</h4>
+            <p class="step-desc">The immediate supervisor steps in for informal guidance and objective perspective.</p>
+          </div>
+          <div class="step-item">
+            <div class="step-num">3</div>
+            <h4 class="step-title">HR Mediates</h4>
+            <p class="step-desc">Structured, neutral mediation session conducted under Human Resources supervision.</p>
+          </div>
+          <div class="step-item">
+            <div class="step-num">4</div>
+            <h4 class="step-title">CEO &amp; HR Decide</h4>
+            <p class="step-desc">Final review and decisive, fair resolution issued jointly by the CEO and HR.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       OPTIONAL SECTION: PORTFOLIO, TESTIMONIALS, NEWS & CAREERS
+       ============================================================ -->
+  <section class="optional-section" id="portfolio">
+    <div class="container">
+      <div class="section-header fade-up">
+        <span class="pixel-badge">Creativity Showcase</span>
+        <h2 class="section-title">Sample <span>Portfolio</span></h2>
+        <p class="section-subtitle">Take a peek at concept mockups designed for local clients and campus initiatives.
+        </p>
+      </div>
+
+      <!-- 3 Sample Project Cards -->
+      <div class="portfolio-grid">
+        <!-- Project 1: Logo -->
+        <div class="portfolio-card fade-up" data-project="coffee" role="button" tabindex="0"
+          aria-label="View sample product for Artisan Coffee Brand">
+          <div class="portfolio-thumbnail thumb-1">
+            <svg class="ui-icon ui-icon-xl mockup-icon" style="color: #fff;" viewBox="0 0 24 24">
+              <path d="M18 8h1a4 4 0 0 1 0 8h-1" />
+              <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z" />
+              <line x1="6" y1="1" x2="6" y2="4" />
+              <line x1="10" y1="1" x2="10" y2="4" />
+              <line x1="14" y1="1" x2="14" y2="4" />
+            </svg>
+            <span style="font-weight: 700; font-size: 0.9rem; letter-spacing: 1px;">KAPE BARAKO CAFE</span>
+            <div class="portfolio-card-badge">
+              <svg class="ui-icon ui-icon-sm" viewBox="0 0 24 24">
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+              </svg>
+              <span>Click to View Sample</span>
+            </div>
+          </div>
+          <div class="portfolio-content">
+            <span class="portfolio-tag">Brand &bull; Identity</span>
+            <h3 class="portfolio-title">Artisan Coffee Brand</h3>
+            <p class="portfolio-desc">Modern minimalist logo package and brand guideline developed for a family-owned
+              neighborhood cafe.</p>
+            <div class="portfolio-action-row">
+              <span class="portfolio-view-text">
+                View Sample Product &rarr;
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2: Poster -->
+        <div class="portfolio-card fade-up" data-project="festival" role="button" tabindex="0"
+          aria-label="View sample product for University Youth Festival">
+          <div class="portfolio-thumbnail thumb-2">
+            <svg class="ui-icon ui-icon-xl mockup-icon" style="color: #fff;" viewBox="0 0 24 24">
+              <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
+              <line x1="16" y1="2" x2="16" y2="6" />
+              <line x1="8" y1="2" x2="8" y2="6" />
+              <line x1="3" y1="10" x2="21" y2="10" />
+            </svg>
+            <span style="font-weight: 700; font-size: 0.9rem; letter-spacing: 1px;">CAMPUS FEST 2026</span>
+            <div class="portfolio-card-badge">
+              <svg class="ui-icon ui-icon-sm" viewBox="0 0 24 24">
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+              </svg>
+              <span>Click to View Sample</span>
+            </div>
+          </div>
+          <div class="portfolio-content">
+            <span class="portfolio-tag">Print &bull; Layout</span>
+            <h3 class="portfolio-title">University Youth Festival</h3>
+            <p class="portfolio-desc">Vibrant promotional posters and stage tarpaulins created for a 3-day collegiate
+              festival.</p>
+            <div class="portfolio-action-row">
+              <span class="portfolio-view-text">
+                View Sample Product &rarr;
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3: Website -->
+        <div class="portfolio-card fade-up" data-project="florist" role="button" tabindex="0"
+          aria-label="View sample product for Local Florist Catalog">
+          <div class="portfolio-thumbnail thumb-3">
+            <svg class="ui-icon ui-icon-xl mockup-icon" style="color: #fff;" viewBox="0 0 24 24">
+              <circle cx="12" cy="12" r="10" />
+              <line x1="2" y1="12" x2="22" y2="12" />
+              <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+            </svg>
+            <span style="font-weight: 700; font-size: 0.9rem; letter-spacing: 1px;">GREENROOTS FLOWER</span>
+            <div class="portfolio-card-badge">
+              <svg class="ui-icon ui-icon-sm" viewBox="0 0 24 24">
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+              </svg>
+              <span>Click to View Sample</span>
+            </div>
+          </div>
+          <div class="portfolio-content">
+            <span class="portfolio-tag">Web &bull; eCommerce</span>
+            <h3 class="portfolio-title">Local Florist Catalog</h3>
+            <p class="portfolio-desc">Responsive one-page product gallery and order form engineered for a local
+              botanical shop.</p>
+            <div class="portfolio-action-row">
+              <span class="portfolio-view-text">
+                View Sample Product &rarr;
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Client Testimonials -->
+      <h3 class="testimonials-heading fade-up">What Clients Say</h3>
+      <div class="testimonials-grid">
+        <div class="testimonial-card fade-up">
+          <span class="quote-mark">“</span>
+          <p class="testimonial-text">
+            “PixelCraft Studio designed our high school club’s event tarpaulin and social flyers on super short notice.
+            The artwork was crisp, modern, and affordable. Everyone loved it!”
+          </p>
+          <div class="testimonial-client">
+            <div class="client-avatar">MR</div>
+            <div>
+              <div class="client-name">Maria Rodriguez</div>
+              <div class="client-role">President, High School Science Guild</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card fade-up">
+          <span class="quote-mark">“</span>
+          <p class="testimonial-text">
+            “As a startup bakery, we needed a friendly logo and simple website without spending thousands. PixelCraft
+            delivered exactly what we dreamed of with incredible patience.”
+          </p>
+          <div class="testimonial-client">
+            <div class="client-avatar orange">JT</div>
+            <div>
+              <div class="client-name">Julian Tan</div>
+              <div class="client-role">Founder, Sweet Crumbs Bakeshop</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- News & Careers -->
+      <div class="news-careers-grid">
+        <!-- News and Announcements -->
+        <div class="news-card-wrapper fade-up">
+          <div class="sub-section-title">
+            <svg class="ui-icon ui-icon-md" style="color: var(--primary-purple);" viewBox="0 0 24 24">
+              <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9" />
+              <path d="M13.73 21a2 2 0 0 1-3.46 0" />
+            </svg>
+            <span>Studio News &amp; Updates</span>
+          </div>
+          <div class="news-item">
+            <div class="news-date">October 15, 2026</div>
+            <h4 class="news-title">PixelCraft Studio Hits 15 Client Milestone!</h4>
+            <p class="news-snippet">Our student team successfully reached 15 completed projects this quarter, ahead of
+              our Year 1 schedule!</p>
+          </div>
+          <div class="news-item">
+            <div class="news-date">September 28, 2026</div>
+            <h4 class="news-title">Free Graphic Design Workshop for Local Youth</h4>
+            <p class="news-snippet">Our creative team hosted a weekend webinar introducing basic Canva &amp; Figma
+              techniques to high school students.</p>
+          </div>
+        </div>
+
+        <!-- Careers / Job Openings -->
+        <div class="careers-card-wrapper fade-up" id="careers">
+          <div class="sub-section-title">
+            <svg class="ui-icon ui-icon-md" style="color: var(--primary-purple);" viewBox="0 0 24 24">
+              <rect x="2" y="7" width="20" height="14" rx="2" ry="2" />
+              <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
+            </svg>
+            <span>Join Our Studio (Openings)</span>
+          </div>
+          <div class="career-item">
+            <div>
+              <h4 class="career-role">Junior UI/UX Designer</h4>
+              <div class="career-meta">Part-time / Student-friendly &bull; Remote</div>
+            </div>
+            <button class="btn btn-outline btn-sm apply-btn" data-job="Junior UI/UX Designer">Apply</button>
+          </div>
+          <div class="career-item">
+            <div>
+              <h4 class="career-role">Social Media Content Creator</h4>
+              <div class="career-meta">Part-time &bull; Flexible hours</div>
+            </div>
+            <button class="btn btn-outline btn-sm apply-btn" data-job="Social Media Content Creator">Apply</button>
+          </div>
+          <p style="font-size: 0.8rem; color: var(--text-muted); margin-top: 1rem; text-align: center;">
+            Student-friendly schedules with mentorship included.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SECTION 6: CONTACT US
+       ============================================================ -->
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <div class="section-header fade-up">
+        <span class="pixel-badge">Get In Touch</span>
+        <h2 class="section-title">Contact <span>PixelCraft Studio</span></h2>
+        <p class="section-subtitle">Have a project or event in mind? Send us a message and we'll craft a custom quote
+          for you.</p>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Contact Information Card -->
+        <div class="contact-info-card fade-up">
+          <div>
+            <div class="contact-info-header">
+              <h3>Let's Collaborate</h3>
+              <p>Reach out anytime during office hours. We are excited to hear about your organization's creative goals!
+              </p>
+            </div>
+
+            <div class="contact-details-list">
+              <!-- Fictional Email -->
+              <div class="contact-detail-row">
+                <div class="contact-detail-icon">
+                  <svg class="ui-icon ui-icon-md" viewBox="0 0 24 24">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                    <polyline points="22,6 12,13 2,6" />
+                  </svg>
+                </div>
+                <div class="contact-detail-text">
+                  <h5>Email Us</h5>
+                  <a href="mailto:hello@pixelcraftstudio.example">hello@pixelcraftstudio.example</a>
+                </div>
+              </div>
+
+              <!-- Phone -->
+              <div class="contact-detail-row">
+                <div class="contact-detail-icon">
+                  <svg class="ui-icon ui-icon-md" viewBox="0 0 24 24">
+                    <path
+                      d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+                  </svg>
+                </div>
+                <div class="contact-detail-text">
+                  <h5>Call / Text</h5>
+                  <a href="tel:+639000000000">+63 900 000 0000</a>
+                </div>
+              </div>
+
+              <!-- Address -->
+              <div class="contact-detail-row">
+                <div class="contact-detail-icon">
+                  <svg class="ui-icon ui-icon-md" viewBox="0 0 24 24">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                    <circle cx="12" cy="10" r="3" />
+                  </svg>
+                </div>
+                <div class="contact-detail-text">
+                  <h5>Studio Location</h5>
+                  <p>Margosatubig, Zamboanga del Sur, Philippines</p>
+                </div>
+              </div>
+
+              <!-- Office Hours -->
+              <div class="contact-detail-row">
+                <div class="contact-detail-icon">
+                  <svg class="ui-icon ui-icon-md" viewBox="0 0 24 24">
+                    <circle cx="12" cy="12" r="10" />
+                    <polyline points="12 6 12 12 16 14" />
+                  </svg>
+                </div>
+                <div class="contact-detail-text">
+                  <h5>Office Hours</h5>
+                  <p>Mon - Fri, 9:00 AM to 5:00 PM</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-badge-box" style="display: flex; align-items: center; gap: 0.5rem;">
+            <svg class="ui-icon ui-icon-sm" style="color: var(--primary-orange); flex-shrink: 0;" viewBox="0 0 24 24">
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+              <polyline points="22 4 12 14.01 9 11.01" />
+            </svg>
+            <span><strong>Friendly Guarantee:</strong> We reply to all school and local business inquiries within 24
+              business hours.</span>
+          </div>
+        </div>
+
+        <!-- Demonstration Contact Form -->
+        <div class="contact-form-card fade-up">
+          <span class="demo-form-badge">Demonstration Form</span>
+          <h3 style="font-size: 1.35rem; color: var(--dark-text); margin-bottom: 1.25rem;">Send a Message</h3>
+
+          <form id="contactForm" novalidate>
+            <!-- Name Field -->
+            <div class="form-group">
+              <label for="userName" class="form-label">Your Name</label>
+              <input type="text" id="userName" name="name" class="form-input" placeholder="e.g. Alex Rivera" required>
+              <div class="error-msg">Please enter your name.</div>
+            </div>
+
+            <!-- Email Field -->
+            <div class="form-group">
+              <label for="userEmail" class="form-label">Email Address</label>
+              <input type="email" id="userEmail" name="email" class="form-input" placeholder="e.g. alex@example.com"
+                required>
+              <div class="error-msg">Please enter a valid email address.</div>
+            </div>
+
+            <!-- Message Field -->
+            <div class="form-group">
+              <label for="userMessage" class="form-label">Project Details or Message</label>
+              <textarea id="userMessage" name="message" class="form-textarea"
+                placeholder="Tell us about the logo, poster, or website you need..." required></textarea>
+              <div class="error-msg">Please write a short message before sending.</div>
+            </div>
+
+            <button type="submit" class="btn btn-orange" style="width: 100%;" id="sendBtn">
+              Send Message
+            </button>
+
+            <!-- Success Alert Notification -->
+            <div class="form-alert-feedback" id="formAlertFeedback">
+              <div style="display: flex; align-items: center; gap: 0.6rem;">
+                <svg class="ui-icon ui-icon-md" style="color: var(--success-green);" viewBox="0 0 24 24">
+                  <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+                  <polyline points="22 4 12 14.01 9 11.01" />
+                </svg>
+                <span><strong>Thank you!</strong> (Demo only, no message was sent.)</span>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FOOTER
+       ============================================================ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="brand-logo" style="margin-bottom: 0.5rem;">
+            <img src="logo-icon.png" alt="PixelCraft Studio Logo" class="brand-logo-img">
+            <div class="brand-logo-text">
+              <span class="brand-title">PixelCraft Studio</span>
+              <span class="brand-subtitle">We craft your ideas into pixels.</span>
+            </div>
+          </div>
+          <p>
+            A fictional IT design studio providing accessible digital design, promotional prints, and websites for
+            schools and local businesses.
+          </p>
+        </div>
+
+        <div class="footer-links-grid">
+          <div class="footer-links-col">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#team">Our Team</a></li>
+            </ul>
+          </div>
+          <div class="footer-links-col">
+            <h4>Explore</h4>
+            <ul>
+              <li><a href="#culture">Our Culture</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#careers">Careers</a></li>
+              <li><a href="#contact">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="footer-links-col">
+            <h4>Connect</h4>
+            <ul>
+              <li><a href="mailto:hello@pixelcraftstudio.example">hello@pixelcraftstudio.example</a></li>
+              <li><a href="tel:+639000000000">+63 900 000 0000</a></li>
+              <li><span>Margosatubig, Zamboanga del Sur, Philippines</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 PixelCraft Studio. Fictional company for a school project.
+        </div>
+        <a href="#home" class="back-to-top">
+          ↑ Back to Top
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============================================================
+       MODAL: SAMPLE PRODUCT SHOWCASE
+       ============================================================ -->
+  <div class="showcase-modal-overlay" id="productShowcaseModal" role="dialog" aria-modal="true"
+    aria-labelledby="showcaseModalTitle">
+    <div class="showcase-modal-dialog">
+      <!-- Mobile Drag Handle (hidden on desktop) -->
+      <div class="showcase-mobile-handle" aria-hidden="true">
+        <div class="showcase-handle-pill"></div>
+        <span class="showcase-swipe-hint">Swipe ← → to browse · Swipe ↓ to close</span>
+      </div>
+      <!-- Header -->
+      <div class="showcase-modal-header">
+        <div class="showcase-modal-title-group">
+          <span class="pixel-badge" id="showcaseModalTag">Brand &bull; Identity</span>
+          <h3 id="showcaseModalTitle">Artisan Coffee Brand</h3>
+        </div>
+        <div class="showcase-header-controls">
+          <div class="showcase-nav-group">
+            <button class="showcase-nav-btn" id="showcasePrevBtn" title="Previous Project">&larr; Prev</button>
+            <button class="showcase-nav-btn" id="showcaseNextBtn" title="Next Project">Next &rarr;</button>
+          </div>
+          <button class="showcase-close-btn" id="showcaseCloseBtn" aria-label="Close Showcase">&times;</button>
+        </div>
+      </div>
+
+      <!-- Scrollable Body with Dynamic Project Stages -->
+      <div class="showcase-modal-body">
+
+        <!-- PROJECT 1: COFFEE SHOWCASE STAGE -->
+        <div class="sample-project-view" id="projectStage-coffee">
+          <div class="sample-visual-stage coffee-stage">
+            <!-- Brand Logo Stage -->
+            <div class="coffee-logo-display">
+              <div class="coffee-brand-badge">
+                <div class="coffee-icon-box">
+                  <svg class="ui-icon ui-icon-lg" viewBox="0 0 24 24">
+                    <path d="M18 8h1a4 4 0 0 1 0 8h-1" />
+                    <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z" />
+                    <line x1="6" y1="1" x2="6" y2="4" />
+                    <line x1="10" y1="1" x2="10" y2="4" />
+                    <line x1="14" y1="1" x2="14" y2="4" />
+                  </svg>
+                </div>
+                <div class="coffee-brand-name">KAPE BARAKO</div>
+                <div class="coffee-tagline">Batangas Liberica Roast &bull; Est. 2024</div>
+              </div>
+            </div>
+
+            <!-- Deliverables Mockup Row -->
+            <div class="coffee-mockup-row">
+              <div class="mockup-item-card">
+                <span class="mockup-item-icon">☕</span>
+                <div class="mockup-item-title">Kraft Takeout Cup</div>
+                <div class="mockup-item-sub">12oz Eco Kraft Paper with Heat-Embossed Purple Sleeve &amp; Sip Lid</div>
+              </div>
+              <div class="mockup-item-card">
+                <span class="mockup-item-icon">📦</span>
+                <div class="mockup-item-title">250g Bean Pouch</div>
+                <div class="mockup-item-sub">Matte Zipper Pouch with Roast Date Stamp &amp; Flavor Notes Label</div>
+              </div>
+              <div class="mockup-item-card">
+                <span class="mockup-item-icon">🎟️</span>
+                <div class="mockup-item-title">Loyalty Stamp Card</div>
+                <div class="mockup-item-sub">Pocket-Sized 10-Stamp Card ("Buy 9 cups, get 10th on the house")</div>
+              </div>
+            </div>
+
+            <!-- Interactive Palette Swatches -->
+            <div class="color-swatches-title">Curated Color Palette (Click swatch to copy hex):</div>
+            <div class="color-swatches-bar">
+              <div class="color-swatch-chip copy-hex-trigger" data-hex="#2B1810"
+                style="background: #2B1810; color: #fff;">
+                <span>#2B1810</span>
+                <small style="opacity: 0.8; font-weight: normal;">Barako Dark</small>
+              </div>
+              <div class="color-swatch-chip copy-hex-trigger" data-hex="#5B2A86"
+                style="background: #5B2A86; color: #fff;">
+                <span>#5B2A86</span>
+                <small style="opacity: 0.8; font-weight: normal;">Royal Plum</small>
+              </div>
+              <div class="color-swatch-chip copy-hex-trigger" data-hex="#FF8A3D"
+                style="background: #FF8A3D; color: #fff;">
+                <span>#FF8A3D</span>
+                <small style="opacity: 0.8; font-weight: normal;">Warm Citrus</small>
+              </div>
+              <div class="color-swatch-chip copy-hex-trigger" data-hex="#F4ECE1"
+                style="background: #F4ECE1; color: #2A1740;">
+                <span>#F4ECE1</span>
+                <small style="opacity: 0.8; font-weight: normal;">Crema Foam</small>
+              </div>
+            </div>
+          </div>
+
+          <!-- Specifications & Case Details -->
+          <div class="showcase-info-grid" style="margin-top: 1.5rem;">
+            <div class="showcase-info-block">
+              <h4>
+                <svg class="ui-icon ui-icon-md" style="color: var(--primary-purple);" viewBox="0 0 24 24">
+                  <circle cx="12" cy="12" r="10" />
+                  <polyline points="12 6 12 12 14 14" />
+                </svg>
+                Project Overview &amp; Solution
+              </h4>
+              <p>
+                Kape Barako Cafe is a third-generation family business in Batangas transitioning into modern cafe
+                culture. PixelCraft Studio created an authentic visual identity marrying traditional Filipino coffee
+                heritage with contemporary cafe aesthetics.
+              </p>
+              <h4>Included Deliverables</h4>
+              <div class="deliverables-pill-list">
+                <span class="deliverable-pill">✓ Primary Vector Logo</span>
+                <span class="deliverable-pill">✓ Horizontal &amp; Stamp Marks</span>
+                <span class="deliverable-pill">✓ 12-Page Brand Guidelines</span>
+                <span class="deliverable-pill">✓ Packaging Sticker Files</span>
+                <span class="deliverable-pill">✓ Social Media Avatar Kit</span>
+              </div>
+            </div>
+
+            <div class="showcase-specs-sidebar">
+              <div class="spec-line">
+                <span class="spec-label">Client</span>
+                <span class="spec-value">Kape Barako Cafe (Batangas)</span>
+              </div>
+              <div class="spec-line">
+                <span class="spec-label">Category</span>
+                <span class="spec-value">Brand &bull; Identity</span>
+              </div>
+              <div class="spec-line">
+                <span class="spec-label">Tools Used</span>
+                <span class="spec-value">Illustrator, Photoshop, Figma</span>
+              </div>
+              <div class="spec-line">
+                <span class="spec-label">Turnaround</span>
+                <span class="spec-value">5 Working Days</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- PROJECT 2: FESTIVAL SHOWCASE STAGE -->
+        <div class="sample-project-view" id="projectStage-festival" style="display: none;">
+          <div class="sample-visual-stage festival-stage">
+            <div class="poster-preview-box">
+              <span class="poster-header-tag">OFFICIAL 2026 POSTER</span>
+              <div class="poster-main-title">CAMPUS FEST 2026</div>
+              <div class="poster-date-venue">⚡ IGNITE THE BEAT &bull; NOV 14–16 &bull; UNIVERSITY AMPHITHEATER ⚡</div>
+
+              <div class="poster-lineup-tags">
+                <span class="poster-badge">🎸 Battle of the Bands</span>
+                <span class="poster-badge">🎧 DJ Neon Rave Night</span>
+                <span class="poster-badge">🎪 Food &amp; Merch Bazaar</span>
+                <span class="poster-badge">🎭 Indie Street Theater</span>
+              </div>
+
+              <div class="print-specs-ticker">
+                <svg class="ui-icon ui-icon-sm" viewBox="0 0 24 24">
+                  <polyline points="6 9 6 2 18 2 18 9" />
+                  <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2" />
+                  <rect x="6" y="14" width="12" height="8" />
+                </svg>
+                <span>Full CMYK Commercial Print-Ready &bull; 300 DPI High-Res &bull; 0.125" Bleed Margins</span>
+              </div>
+            </div>
+
+            <!-- Print Deliverables Mockup Row -->
+            <div class="coffee-mockup-row" style="margin-top: 1.5rem;">
+              <div class="mockup-item-card">
+                <span class="mockup-item-icon">🖼️</span>
+                <div class="mockup-item-title">18" &times; 24" Poster</div>
+                <div class="mockup-item-sub">Printed on 220gsm Gloss Art Paper for Bulletin Boards and Campus Walls
+                </div>
+              </div>
+              <div class="mockup-item-card">
+                <span class="mockup-item-icon">🚩</span>
+                <div class="mockup-item-title">12ft &times; 8ft Stage Backdrop</div>
+                <div class="mockup-item-sub">Heavy-Duty Outdoor Vinyl Tarpaulin with Brass Grommet Hole Guides</div>
+              </div>
+              <div class="mockup-item-card">
+                <span class="mockup-item-icon">🎫</span>
+                <div class="mockup-item-title">VIP Passes &amp; Wristbands</div>
+                <div class="mockup-item-sub">Tear-Resistant Tyvek Event Wristbands with Holographic Foil Stamp</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Specifications & Case Details -->
+          <div class="showcase-info-grid" style="margin-top: 1.5rem;">
+            <div class="showcase-info-block">
+              <h4>
+                <svg class="ui-icon ui-icon-md" style="color: var(--primary-purple);" viewBox="0 0 24 24">
+                  <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
+                  <line x1="16" y1="2" x2="16" y2="6" />
+                  <line x1="8" y1="2" x2="8" y2="6" />
+                  <line x1="3" y1="10" x2="21" y2="10" />
+                </svg>
+                Project Overview &amp; Solution
+              </h4>
+              <p>
+                The University Student Council needed high-impact promotional materials to drive student engagement
+                across campus. PixelCraft Studio produced an electrifying neon aesthetic that ensured readability from
+                30+ feet away and translated seamlessly across print and social formats.
+              </p>
+              <h4>Included Deliverables</h4>
+              <div class="deliverables-pill-list">
+                <span class="deliverable-pill">✓ 18"&times;24" Poster Print Files</span>
+                <span class="deliverable-pill">✓ 12&times;8 ft Main Stage Tarpaulin</span>
+                <span class="deliverable-pill">✓ 2-Sided Pocket Schedule Flyers</span>
+                <span class="deliverable-pill">✓ VIP Passes &amp; Wristband Layouts</span>
+                <span class="deliverable-pill">✓ Social Media Teaser Kit</span>
+              </div>
+            </div>
+
+            <div class="showcase-specs-sidebar">
+              <div class="spec-line">
+                <span class="spec-label">Client</span>
+                <span class="spec-value">University Student Council</span>
+              </div>
+              <div class="spec-line">
+                <span class="spec-label">Category</span>
+                <span class="spec-value">Print &bull; Layout</span>
+              </div>
+              <div class="spec-line">
+                <span class="spec-label">Tools Used</span>
+                <span class="spec-value">Photoshop, InDesign, Acrobat Pro</span>
+              </div>
+              <div class="spec-line">
+                <span class="spec-label">Turnaround</span>
+                <span class="spec-value">4 Working Days</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- PROJECT 3: FLORIST SHOWCASE STAGE -->
+        <div class="sample-project-view" id="projectStage-florist" style="display: none;">
+          <div class="sample-visual-stage florist-stage">
+            <!-- Simulated Browser Bar -->
+            <div class="browser-mockup-bar">
+              <div class="browser-dots">
+                <span class="browser-dot"></span>
+                <span class="browser-dot"></span>
+                <span class="browser-dot"></span>
+              </div>
+              <div class="browser-url-bar">
+                <span>https://greenrootsflowers.example/catalog</span>
+                <span class="live-indicator">● Storefront Online</span>
+              </div>
+            </div>
+
+            <div style="text-align: center; margin-bottom: 1.25rem;">
+              <h4 style="font-size: 1.15rem; font-weight: 800; color: var(--primary-purple); margin-bottom: 0.25rem;">
+                GreenRoots Floral &amp; Botanical Boutique</h4>
+              <p style="font-size: 0.85rem; color: var(--text-muted);">Interactive Demo Storefront: Try clicking
+                <strong>"Add to Order Demo"</strong> below!</p>
+            </div>
+
+            <!-- Interactive Florist Product Grid -->
+            <div class="florist-products-grid">
+              <div class="florist-item-card">
+                <div class="florist-icon-box">🌹</div>
+                <div class="florist-item-title">Blushing Rose Bouquet</div>
+                <div class="florist-item-price">₱1,200</div>
+                <div class="florist-item-desc">12 imported long-stem pink roses with baby's breath &amp; satin ribbon.
+                </div>
+                <button class="florist-add-btn" data-name="Blushing Rose Bouquet" data-price="1200">+ Add to Order
+                  Demo</button>
+              </div>
+
+              <div class="florist-item-card">
+                <div class="florist-icon-box">🌻</div>
+                <div class="florist-item-title">Sunburst Sunflower Bunch</div>
+                <div class="florist-item-price">₱950</div>
+                <div class="florist-item-desc">5 premium golden sunflowers wrapped in rustic eco-friendly burlap.</div>
+                <button class="florist-add-btn" data-name="Sunburst Sunflower Bunch" data-price="950">+ Add to Order
+                  Demo</button>
+              </div>
+
+              <div class="florist-item-card">
+                <div class="florist-icon-box">🪴</div>
+                <div class="florist-item-title">Succulent Glass Terrarium</div>
+                <div class="florist-item-price">₱650</div>
+                <div class="florist-item-desc">Curated drought-tolerant succulent collection in a geometric glass bowl.
+                </div>
+                <button class="florist-add-btn" data-name="Succulent Glass Terrarium" data-price="650">+ Add to Order
+                  Demo</button>
+              </div>
+            </div>
+
+            <!-- Interactive Cart Status Bar -->
+            <div class="florist-cart-status-bar">
+              <div class="florist-cart-info">
+                <span>🛒 Selected Items: <strong id="demoCartCount">0</strong></span>
+                <span>Total: <strong id="demoCartTotal" style="color: var(--primary-orange);">₱0</strong></span>
+              </div>
+              <button class="florist-checkout-demo-btn" id="demoCheckoutBtn">
+                Simulate Messenger Order &rarr;
+              </button>
+            </div>
+          </div>
+
+          <!-- Specifications & Case Details -->
+          <div class="showcase-info-grid" style="margin-top: 1.5rem;">
+            <div class="showcase-info-block">
+              <h4>
+                <svg class="ui-icon ui-icon-md" style="color: var(--primary-purple);" viewBox="0 0 24 24">
+                  <circle cx="12" cy="12" r="10" />
+                  <line x1="2" y1="12" x2="22" y2="12" />
+                  <path
+                    d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+                </svg>
+                Project Overview &amp; Solution
+              </h4>
+              <p>
+                GreenRoots needed a fast, zero-monthly-cost web catalog for local customers to browse arrangements on
+                mobile and order directly without complicated checkout systems. PixelCraft built a lightning-fast
+                responsive catalog that routes customer orders straight to Facebook Messenger or WhatsApp.
+              </p>
+              <h4>Included Deliverables</h4>
+              <div class="deliverables-pill-list">
+                <span class="deliverable-pill">✓ Responsive Web Storefront</span>
+                <span class="deliverable-pill">✓ Mobile Touch Catalog</span>
+                <span class="deliverable-pill">✓ Direct-to-Messenger Order Flow</span>
+                <span class="deliverable-pill">✓ Fast Load Optimization (&lt;1s)</span>
+                <span class="deliverable-pill">✓ Zero Monthly Hosting Setup</span>
+              </div>
+            </div>
+
+            <div class="showcase-specs-sidebar">
+              <div class="spec-line">
+                <span class="spec-label">Client</span>
+                <span class="spec-value">GreenRoots Floral &amp; Botanical</span>
+              </div>
+              <div class="spec-line">
+                <span class="spec-label">Category</span>
+                <span class="spec-value">Web &bull; eCommerce</span>
+              </div>
+              <div class="spec-line">
+                <span class="spec-label">Tech Stack</span>
+                <span class="spec-value">HTML5, Modern CSS, Vanilla JS</span>
+              </div>
+              <div class="spec-line">
+                <span class="spec-label">Turnaround</span>
+                <span class="spec-value">7 Working Days</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Modal Footer Action -->
+      <div class="showcase-footer-actions">
+        <div style="font-size: 0.88rem; color: var(--text-muted);">
+          Looking for custom design or web development?
+        </div>
+        <button class="btn btn-orange" id="showcaseInquireBtn">
+          Inquire About This Service &rarr;
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification for Copied Hex / Demo Feedback -->
+  <div class="showcase-copied-toast" id="showcaseToast">Copied to clipboard!</div>
+
+  <!-- Modal for Career Application (Demo only) -->
+  <div class="modal-overlay" id="demoModal">
+    <div class="modal-card">
+      <button class="modal-close-btn" id="modalCloseBtn">&times;</button>
+      <div style="margin-bottom: 1rem;">
+        <svg class="ui-icon ui-icon-xl" style="color: var(--primary-purple);" viewBox="0 0 24 24">
+          <rect x="2" y="7" width="20" height="14" rx="2" ry="2" />
+          <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
+        </svg>
+      </div>
+      <h3 id="modalJobTitle" style="color: var(--primary-purple); margin-bottom: 0.5rem;">Job Application</h3>
+      <p style="color: var(--text-muted); font-size: 0.95rem; margin-bottom: 1.5rem;">
+        Thank you for your interest! (Demonstration only — no applications are being processed currently.)
+      </p>
+      <button class="btn btn-purple" id="modalConfirmBtn">Got it!</button>
+    </div>
+  </div>
+
+  <!-- ============================================================
+       JAVASCRIPT: INTERACTION, VALIDATION, AND ANIMATIONS
+       ============================================================ -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // Mark body as ready for progressive animations
+      document.body.classList.add('animations-ready');
+
+      // 1. Mobile Hamburger Menu Toggle
+      const hamburger = document.getElementById('hamburgerBtn');
+      const navMenu = document.getElementById('navMenu');
+      const navLinks = document.querySelectorAll('.nav-link');
+
+      hamburger.addEventListener('click', () => {
+        const isOpen = navMenu.classList.toggle('open');
+        hamburger.classList.toggle('open');
+        hamburger.setAttribute('aria-expanded', isOpen);
+      });
+
+      // Close mobile menu when a nav link is clicked
+      navLinks.forEach(link => {
+        link.addEventListener('click', () => {
+          navMenu.classList.remove('open');
+          hamburger.classList.remove('open');
+          hamburger.setAttribute('aria-expanded', false);
+        });
+      });
+
+      // 2. Sticky Header Shadow on Scroll
+      const header = document.getElementById('header');
+      window.addEventListener('scroll', () => {
+        if (window.scrollY > 30) {
+          header.classList.add('scrolled');
+        } else {
+          header.classList.remove('scrolled');
+        }
+      });
+
+      // 3. Active Link Highlight on Scroll
+      const sections = document.querySelectorAll('section[id]');
+      window.addEventListener('scroll', () => {
+        const scrollY = window.pageYOffset + 120;
+        sections.forEach(current => {
+          const sectionHeight = current.offsetHeight;
+          const sectionTop = current.offsetTop;
+          const sectionId = current.getAttribute('id');
+          const navItem = document.querySelector(`.nav-link[href*="${sectionId}"]`);
+
+          if (scrollY >= sectionTop && scrollY < sectionTop + sectionHeight) {
+            if (navItem) navItem.classList.add('active');
+          } else {
+            if (navItem) navItem.classList.remove('active');
+          }
+        });
+      });
+
+      // 4. Scroll Fade-In Animation (Intersection Observer)
+      const fadeElements = document.querySelectorAll('.fade-up');
+      if ('IntersectionObserver' in window) {
+        const observerOptions = {
+          root: null,
+          rootMargin: '0px 0px -40px 0px',
+          threshold: 0.08
+        };
+
+        const observer = new IntersectionObserver((entries, obs) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('in-view');
+              obs.unobserve(entry.target);
+            }
+          });
+        }, observerOptions);
+
+        fadeElements.forEach(el => observer.observe(el));
+      } else {
+        // Fallback for older browsers
+        fadeElements.forEach(el => el.classList.add('in-view'));
+      }
+
+      // 5. Contact Form Validation & Demonstration Alert
+      const contactForm = document.getElementById('contactForm');
+      const nameInput = document.getElementById('userName');
+      const emailInput = document.getElementById('userEmail');
+      const messageInput = document.getElementById('userMessage');
+      const formAlert = document.getElementById('formAlertFeedback');
+
+      const validateEmail = (email) => {
+        return String(email)
+          .toLowerCase()
+          .match(/^[^\s@]+@[^\s@]+\.[^\s@]+$/);
+      };
+
+      contactForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        let isValid = true;
+
+        // Reset state
+        [nameInput, emailInput, messageInput].forEach(input => input.classList.remove('is-invalid'));
+        formAlert.style.display = 'none';
+
+        // Check Name
+        if (!nameInput.value.trim()) {
+          nameInput.classList.add('is-invalid');
+          isValid = false;
+        }
+
+        // Check Email
+        if (!emailInput.value.trim() || !validateEmail(emailInput.value.trim())) {
+          emailInput.classList.add('is-invalid');
+          isValid = false;
+        }
+
+        // Check Message
+        if (!messageInput.value.trim()) {
+          messageInput.classList.add('is-invalid');
+          isValid = false;
+        }
+
+        // If valid, display demo confirmation message
+        if (isValid) {
+          formAlert.style.display = 'block';
+          formAlert.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+          contactForm.reset();
+        }
+      });
+
+      // Clear validation errors on typing
+      [nameInput, emailInput, messageInput].forEach(input => {
+        input.addEventListener('input', () => {
+          if (input.classList.contains('is-invalid')) {
+            input.classList.remove('is-invalid');
+          }
+        });
+      });
+
+      // 6. Careers "Apply" Demo Modal
+      const modal = document.getElementById('demoModal');
+      const modalClose = document.getElementById('modalCloseBtn');
+      const modalConfirm = document.getElementById('modalConfirmBtn');
+      const modalJobTitle = document.getElementById('modalJobTitle');
+      const applyButtons = document.querySelectorAll('.apply-btn');
+
+      applyButtons.forEach(btn => {
+        btn.addEventListener('click', () => {
+          const jobTitle = btn.getAttribute('data-job') || 'Position';
+          modalJobTitle.textContent = `Apply for ${jobTitle}`;
+          modal.classList.add('active');
+        });
+      });
+
+      const closeModal = () => modal.classList.remove('active');
+      modalClose.addEventListener('click', closeModal);
+      modalConfirm.addEventListener('click', closeModal);
+      modal.addEventListener('click', (e) => {
+        if (e.target === modal) closeModal();
+      });
+
+      // 7. Portfolio Sample Product Showcase Modal
+      const showcaseModal = document.getElementById('productShowcaseModal');
+      const showcaseCloseBtn = document.getElementById('showcaseCloseBtn');
+      const showcasePrevBtn = document.getElementById('showcasePrevBtn');
+      const showcaseNextBtn = document.getElementById('showcaseNextBtn');
+      const showcaseModalTag = document.getElementById('showcaseModalTag');
+      const showcaseModalTitle = document.getElementById('showcaseModalTitle');
+      const showcaseInquireBtn = document.getElementById('showcaseInquireBtn');
+      const showcaseToast = document.getElementById('showcaseToast');
+
+      const projectOrder = ['coffee', 'festival', 'florist'];
+      const projectMeta = {
+        coffee: {
+          tag: 'Brand • Identity',
+          title: 'Artisan Coffee Brand — Kape Barako Cafe',
+          inquiry: 'Hi PixelCraft Studio, I saw your sample work for Kape Barako Cafe and I would like to inquire about a Brand & Identity package for my business.'
+        },
+        festival: {
+          tag: 'Print • Layout',
+          title: 'University Youth Festival — Campus Fest 2026',
+          inquiry: 'Hi PixelCraft Studio, I saw your sample work for Campus Fest 2026 and I would like to inquire about Event Posters and Stage Tarpaulin design.'
+        },
+        florist: {
+          tag: 'Web • eCommerce',
+          title: 'Local Florist Catalog — GreenRoots Flowers',
+          inquiry: 'Hi PixelCraft Studio, I saw your sample work for GreenRoots Florist and I would like to inquire about a fast, mobile-friendly Web Storefront.'
+        }
+      };
+
+      let currentProjectIndex = 0;
+
+      function showToast(msg) {
+        if (!showcaseToast) return;
+        showcaseToast.textContent = msg;
+        showcaseToast.classList.add('show');
+        setTimeout(() => showcaseToast.classList.remove('show'), 2800);
+      }
+
+      function switchProject(key) {
+        const idx = projectOrder.indexOf(key);
+        if (idx !== -1) currentProjectIndex = idx;
+        const currentKey = projectOrder[currentProjectIndex];
+        const data = projectMeta[currentKey];
+
+        if (showcaseModalTag) showcaseModalTag.textContent = data.tag;
+        if (showcaseModalTitle) showcaseModalTitle.textContent = data.title;
+
+        // Toggle visibility of project stages
+        projectOrder.forEach(p => {
+          const stage = document.getElementById(`projectStage-${p}`);
+          if (stage) {
+            stage.style.display = (p === currentKey) ? 'block' : 'none';
+          }
+        });
+      }
+
+      function openShowcase(key) {
+        switchProject(key);
+        showcaseModal.classList.add('active');
+        document.body.style.overflow = 'hidden';
+      }
+
+      function closeShowcase() {
+        showcaseModal.classList.remove('active');
+        document.body.style.overflow = '';
+      }
+
+      // Attach clicks to portfolio cards
+      const portfolioCards = document.querySelectorAll('.portfolio-card[data-project]');
+      portfolioCards.forEach(card => {
+        card.addEventListener('click', () => {
+          const projectKey = card.getAttribute('data-project');
+          openShowcase(projectKey);
+        });
+
+        card.addEventListener('keydown', (e) => {
+          if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            const projectKey = card.getAttribute('data-project');
+            openShowcase(projectKey);
+          }
+        });
+      });
+
+      if (showcaseCloseBtn) showcaseCloseBtn.addEventListener('click', closeShowcase);
+
+      if (showcasePrevBtn) {
+        showcasePrevBtn.addEventListener('click', () => {
+          currentProjectIndex = (currentProjectIndex - 1 + projectOrder.length) % projectOrder.length;
+          switchProject(projectOrder[currentProjectIndex]);
+        });
+      }
+
+      if (showcaseNextBtn) {
+        showcaseNextBtn.addEventListener('click', () => {
+          currentProjectIndex = (currentProjectIndex + 1) % projectOrder.length;
+          switchProject(projectOrder[currentProjectIndex]);
+        });
+      }
+
+      if (showcaseModal) {
+        showcaseModal.addEventListener('click', (e) => {
+          if (e.target === showcaseModal) closeShowcase();
+        });
+      }
+
+      // Escape key closes modals
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') {
+          if (showcaseModal && showcaseModal.classList.contains('active')) {
+            closeShowcase();
+          }
+          if (modal && modal.classList.contains('active')) {
+            closeModal();
+          }
+        }
+      });
+
+      // Touch swipe gestures for showcase modal (mobile UX)
+      if (showcaseModal) {
+        const dialog = showcaseModal.querySelector('.showcase-modal-dialog');
+        let touchStartX = 0;
+        let touchStartY = 0;
+
+        dialog.addEventListener('touchstart', (e) => {
+          touchStartX = e.changedTouches[0].clientX;
+          touchStartY = e.changedTouches[0].clientY;
+        }, { passive: true });
+
+        dialog.addEventListener('touchend', (e) => {
+          const dx = e.changedTouches[0].clientX - touchStartX;
+          const dy = e.changedTouches[0].clientY - touchStartY;
+          const absDx = Math.abs(dx);
+          const absDy = Math.abs(dy);
+
+          // Swipe down to close (only on mobile bottom-sheet style)
+          if (window.innerWidth <= 640 && absDy > 60 && dy > 0 && absDy > absDx) {
+            closeShowcase();
+            return;
+          }
+
+          // Swipe left → next project, swipe right → previous project
+          if (absDx > 70 && absDx > absDy * 1.5) {
+            if (dx < 0) {
+              // Swipe left = next
+              currentProjectIndex = (currentProjectIndex + 1) % projectOrder.length;
+            } else {
+              // Swipe right = prev
+              currentProjectIndex = (currentProjectIndex - 1 + projectOrder.length) % projectOrder.length;
+            }
+            switchProject(projectOrder[currentProjectIndex]);
+          }
+        }, { passive: true });
+      }
+
+      // Copy hex color swatch
+      document.querySelectorAll('.copy-hex-trigger').forEach(chip => {
+        chip.addEventListener('click', () => {
+          const hex = chip.getAttribute('data-hex');
+          if (navigator.clipboard && navigator.clipboard.writeText) {
+            navigator.clipboard.writeText(hex).then(() => {
+              showToast(`Copied ${hex} to clipboard!`);
+            }).catch(() => {
+              showToast(`Color code: ${hex}`);
+            });
+          } else {
+            showToast(`Color code: ${hex}`);
+          }
+        });
+      });
+
+      // Florist interactive cart demo inside modal
+      let demoCart = [];
+      const cartCountEl = document.getElementById('demoCartCount');
+      const cartTotalEl = document.getElementById('demoCartTotal');
+      const floristAddBtns = document.querySelectorAll('.florist-add-btn');
+      const demoCheckoutBtn = document.getElementById('demoCheckoutBtn');
+
+      floristAddBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+          const name = btn.getAttribute('data-name');
+          const price = parseInt(btn.getAttribute('data-price'), 10) || 0;
+          const existsIndex = demoCart.findIndex(item => item.name === name);
+
+          if (existsIndex > -1) {
+            demoCart.splice(existsIndex, 1);
+            btn.classList.remove('added');
+            btn.textContent = '+ Add to Order Demo';
+            showToast(`Removed "${name}" from demo cart`);
+          } else {
+            demoCart.push({ name, price });
+            btn.classList.add('added');
+            btn.textContent = '✓ Added to Demo';
+            showToast(`Added "${name}" (₱${price.toLocaleString()}) to demo cart!`);
+          }
+
+          const count = demoCart.length;
+          const total = demoCart.reduce((sum, item) => sum + item.price, 0);
+          if (cartCountEl) cartCountEl.textContent = count;
+          if (cartTotalEl) cartTotalEl.textContent = `₱${total.toLocaleString()}`;
+        });
+      });
+
+      if (demoCheckoutBtn) {
+        demoCheckoutBtn.addEventListener('click', () => {
+          if (demoCart.length === 0) {
+            showToast('Please add at least 1 flower product to test the order demo!');
+            return;
+          }
+          const total = demoCart.reduce((sum, item) => sum + item.price, 0);
+          showToast(`💐 Order simulated for ₱${total.toLocaleString()}! In production, this forwards directly to Messenger.`);
+        });
+      }
+
+      // "Inquire About This Service" button in showcase
+      if (showcaseInquireBtn) {
+        showcaseInquireBtn.addEventListener('click', () => {
+          const currentKey = projectOrder[currentProjectIndex];
+          const data = projectMeta[currentKey];
+          closeShowcase();
+
+          const contactSection = document.getElementById('contact');
+          const messageInput = document.getElementById('userMessage');
+
+          if (contactSection) {
+            contactSection.scrollIntoView({ behavior: 'smooth' });
+          }
+
+          if (messageInput) {
+            messageInput.value = data.inquiry;
+            setTimeout(() => {
+              messageInput.focus();
+              messageInput.classList.remove('is-invalid');
+            }, 500);
+          }
+        });
+      }
+    });
+  </script>
+
+  <!-- ============================================================
+       ADMIN PANEL (login + team editor)
+       Password: pixelcraft2026
+       ============================================================ -->
+  <script src="admin.js"></script>
+</body>
+
+</html>

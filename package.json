@@ -1,0 +1,12 @@
+{
+  "name": "pixelcraft-studio",
+  "version": "1.0.0",
+  "description": "PixelCraft Studio School Project Website",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
